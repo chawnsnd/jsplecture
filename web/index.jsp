@@ -1,16 +1,11 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: chawnsnd
-  Date: 2018-03-15
-  Time: 오후 2:01
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>index</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   </head>
   <body>
-  $END$
+    <p>Hello world!</p>
+    <p>현재 시간은 : <%= new java.util.Date() %></p>
   </body>
 </html>
