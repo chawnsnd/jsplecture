@@ -6,6 +6,6 @@
   </head>
   <body>
     <p>Hello world!</p>
-    <p>현재 시간은 : <%= new java.util.Date(); %></p>
+    <p>현재 시간은 : <%= new java.util.Date() %></p>
   </body>
 </html>
